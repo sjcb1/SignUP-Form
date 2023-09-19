@@ -1,0 +1,65 @@
+html{
+    background-image: url(https://wallup.net/wp-content/uploads/2019/10/376938-wave-sail-scarlet-boat-sailing.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+form{
+    width: 35%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 15%;
+
+}
+
+.control{
+    margin-bottom: 20px;
+}
+
+section{
+    float: left;
+    width: 35%;
+    margin-top: 12%;
+    margin-left: 5%;
+}
+
+section h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: #c8434c;
+}
+
+section h1:hover{
+    transition-duration: 2s;
+    font-size: 2.3em;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    color: #d61724;
+}
+
+section p{
+    margin-top: 8%;
+    color: whitesmoke;
+}
+
+section p:hover{
+    transition-duration: 2s;
+    font-size: 1.3em;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+
+#claimButton{
+    background-color: #c8434c;
+}
+
+#claimButton:hover {
+    border-color: #1d3557;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.10em #1d3557;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    background-color: #d61724
+}
