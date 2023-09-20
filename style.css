@@ -63,3 +63,44 @@ section p:hover{
     cursor: pointer;
     background-color: #d61724
 }
+
+@media screen and (max-width: 768px) {
+    html {
+      background-size: cover; /* Adjust background size for smaller screens */
+    }
+  
+    form {
+      width: 90%; /* Increase form width for better mobile layout */
+      float: none; /* Remove float to center the form */
+      margin: 10% auto; /* Center the form vertically and horizontally */
+    }
+
+    section {
+        width: 90%; /* Adjust section width for better mobile layout */
+        float: none; /* Remove float to center the section */
+        margin: 30% auto; /* Center the section vertically and horizontally */
+        
+      }
+
+    section p{
+        color: black; /*to ensure the writing is legible on the sky coloured background*/
+    }
+    
+      section h1 {
+        font-size: 1.5em; /* Reduce font size for mobile */
+      }
+    
+      section p {
+        font-size: 1em; /* Reduce font size for mobile */
+      }
+
+      .checkbox{
+        color: white;
+      }
+    }
+    
+    
+    
+    
+    
+    
